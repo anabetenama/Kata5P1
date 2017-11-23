@@ -28,7 +28,7 @@ public class KATA5 {
         query = "CREATE TABLE IF NOT EXISTS MAIL('Id' INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + " 'Mail' TEXT NOT NULL)";
         st.execute(query);
-        String file= "/Users/khushbu/Desktop/UNiversidad/Año 3/IS2/emails.txt";
+        String file="C:/Users/Ana/Downloads/KATA5/KATA5/emails.txt";
         BufferedReader  reader = new BufferedReader(new FileReader(new File(file)));
         String mail;
         while((mail = reader.readLine())!= null){
